@@ -1,5 +1,7 @@
+import Container from "./styles";
+
 function Home({ children }) {
-  return <div>{children}</div>;
+  return <Container>{children}</Container>;
 }
 
 export default Home;

@@ -1,5 +1,7 @@
+import ButtonStyle from "./styles";
+
 function Button({ children, onClick }) {
-  return <button onClick={() => onClick()}>{children}</button>;
+  return <ButtonStyle onClick={() => onClick()}>{children}</ButtonStyle>;
 }
 
 export default Button;
